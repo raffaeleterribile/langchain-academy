@@ -1,5 +1,11 @@
 # LangChain Academy 
 
+## NOTE:
+I have used Github Model Catalog, so I've made these changes:
+- changed the base endpoint of the models
+- used gpt4o-mini instead gpt-3.5-turbo-0125
+- used the Github Personal Access Token instead of the OpenAI Access Token
+
 ## Introduction
 
 Welcome to LangChain Academy! 
