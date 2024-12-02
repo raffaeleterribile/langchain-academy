@@ -2,9 +2,11 @@
 
 ## NOTE:
 I have used Github Model Catalog, so I've made these changes:
-- changed the base endpoint of the models
-- used gpt4o-mini instead gpt-3.5-turbo-0125
-- used the Github Personal Access Token instead of the OpenAI Access Token
+- used python version 3.10.12
+- changed requirements: substituted `langgraph-cli` with `langgraph-cli[inmem]` to use the development server of LangGraph Studio
+- changed the base endpoint of the models to use models from Github Models
+- used `gpt4o-mini` instead `gpt-3.5-turbo-0125` in the module-0/basics.ipynb notebook because `gpt-3.5-turbo-0125` it isn't available con Github Models
+- used the Github Personal Access Token instead of the OpenAI Access Token, but saved the key in the same environment variable
 
 ## Introduction
 
