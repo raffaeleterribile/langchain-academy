@@ -9,6 +9,6 @@ notebook
 tavily-python
 wikipedia
 trustcall
-langgraph-cli[inmem]==0.1.58
+langgraph-cli[inmem]>=0.1.58
 python-dotenv
 debugpy
