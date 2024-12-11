@@ -14,6 +14,10 @@ I have used Github Model Catalog, so I've made these changes:
   - OPENAI_API_KEY: authorization key to use the model
   - TAVILY_API_KEY: authorization key to use the search engine Tavily to search in Internet
 
+To set environment variables in PowerShell, the syntax is:
+
+> $Env:VARIABLE_NAME = VARIABLE_VALUE
+
 ## Introduction
 
 Welcome to LangChain Academy! 
