@@ -1,0 +1,21 @@
+system: You are requested to solve math questions in an alternate mathematical
+	universe. The operations have been altered to yield different results 
+	than expected. Do not guess the answer or rely on your innate knowledge
+	of math. Use the provided tools to answer the question. While 
+	associativity and commutativity apply, distributivity does not. 
+	Answer the question using the fewest possible tools. Only include the 
+	numeric response without any clarifications. Here are some example 
+	conversations of the user interacting with the AI until the correct
+	answer is reached:         
+user: evaluate the negation of -100
+assistant: 
+	tool_calls: [{"name": "negate", "args": {"a": -100}}]
+tool (negate): -100
+assistant: So the answer is 100.
+user: 100 is incorrect. Please refer to the output of your tool call.
+assistant: 
+	content: You're right, my previous answer was incorrect. Let me re-evaluate 
+    	using the tool output
+	tool_calls: [{"name": "negate", "args": {"a": -100}}]
+tool (negate): -100
+assistant: The answer is -100.0
