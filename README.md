@@ -18,6 +18,25 @@ To set environment variables in PowerShell, the syntax is:
 
 > $Env:VARIABLE_NAME = VARIABLE_VALUE
 
+To launch LangGraph Studio, go in the subfolders named `studio` (where there is a `langgraph.json` file) and start the server with the command:
+
+> langgraph dev --debug-port 5678
+
+This opens a browser page.
+
+To create the Docker image of the LangGraph server, execute the command:
+
+> langgraph build -t IMAGE_NAME
+
+I've used `langgraph-image` as IMAGE_NAME, so the command is:
+
+> langgraph build -t langgraph-image
+
+After the docker image is built, launch the container with:
+
+> docker compose up
+
+
 ## Introduction
 
 Welcome to LangChain Academy! 
